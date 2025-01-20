@@ -4,6 +4,13 @@
     font-weight: 400;
     font-style: normal;
   }
+
+.raleway-normal {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
   *{margin: 0;padding: 0;}
   .width{max-width: 80%;margin: auto;}
 .flex{display: flex;}
@@ -55,4 +62,77 @@
     font-size: 20px;
     font-weight: 500;
     margin: 24px auto;
+}
+.ebtn{
+    background-color: black;
+}
+.slider{
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slidercard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 28px;
+}
+.slidercard div{
+    text-align: center;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 19.5px;
+    padding: 53.5px 40.5px;
+}
+.slidercard img{
+    height: 126px;
+}
+.comp{padding-bottom: 34px;}
+.slidercard div p{
+    color: #808080;
+}
+.slidercard div h3{
+    font-size: 24.5px;
+    font-weight: 700;
+    padding: 32px 0px;
+    color: #202020;
+}
+#sclider{
+    font-size: 46px;
+    font-weight: 700;
+    padding: 60px 0px 80px;
+}
+.fstSl{
+    background: linear-gradient(180deg, rgba(186,186,186,1) 0%, rgba(249,249,249,1) 37%);
+}
+.secsl{
+    background: linear-gradient(180deg, #fbf1db 0%, rgba(249,249,249,1) 37%);
+}
+.trdsl{
+    background: linear-gradient(180deg, #eadefa 0%, rgba(249,249,249,1) 37%);
+}
+.slidericon{
+    gap: 10px;
+    padding: 60px 0px 80px;
+}
+.slidericon  >div{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spaP{
+    font-size: 15.34px;
+    font-weight: 500;
+    background-color: rgba(60, 216, 232, 1);
+    width: 134px;
+    border-radius:48px ;
+    padding: 15px 19px;
+    position: relative;
+    top: -6%;
 }
