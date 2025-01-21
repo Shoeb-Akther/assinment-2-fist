@@ -147,7 +147,7 @@ html, body {
     font-size: 15.34px;
     font-weight: 500;
     background-color: rgba(60, 216, 232, 1);
-    width: 138px;
+    width: 175px;
     border-radius:48px ;
     padding: 15px 19px;
     position: relative;
@@ -179,7 +179,7 @@ html, body {
     margin-top: -10%;
     font-size: 15.3px;
     padding: 10px 19px;
-    width: 139px;
+    width: 174px;
 }
 .cardT div img{
     border-radius: 16px 16px 0 0;
@@ -264,7 +264,7 @@ html, body {
 .bar{
     display: none;
 }
-/* rasposve */
+/* rasposve width-  412 px */
 
 @media only screen and (min-width: 300px) and (max-width: 700px) {
     .marq{
@@ -351,7 +351,7 @@ html, body {
     font-size: 9px;
 }
 .comcard {
-    width: 80px;
+    width:118px;
 }
 
 .cardcont {
