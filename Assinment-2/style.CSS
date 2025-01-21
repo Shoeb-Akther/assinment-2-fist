@@ -8,7 +8,7 @@
 .raleway-normal {
   font-family: "Raleway", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
   *{margin: 0;padding: 0;}
@@ -130,9 +130,77 @@
     font-size: 15.34px;
     font-weight: 500;
     background-color: rgba(60, 216, 232, 1);
-    width: 134px;
+    width: 138px;
     border-radius:48px ;
     padding: 15px 19px;
     position: relative;
-    top: -6%;
+    margin-top: -5%;
+}
+.unicbg{
+   
+    background: linear-gradient(0deg, rgba(249,222,173,1) 0%, rgba(255,255,255,1) 100%);
+}
+.galary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/bg.png);
+}
+.glytext{
+    font-size: 46px;
+    font-weight: 700;
+}
+.cardT{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 19.17px;
+}
+.cardT p{
+    color: white;
+}
+.comcard{
+    margin-top: -10%;
+    font-size: 15.3px;
+    padding: 10px 19px;
+    width: 139px;
+}
+.cardT div img{
+    border-radius: 16px 16px 0 0;
+}
+.cardT div{
+    border-radius: 16px;
+    background-color: white;
+}
+.padWidth{
+    padding: 0px 38px;
+}
+.padWidth h5{
+    padding: 19px 0px 29px;
+}
+.cardcont{
+    gap: 18.73px;
+    margin: 80px 0;
+}
+.fstcarimg {
+    border-radius: 16px;
+    background-color: white;
+}
+.fstcarimg h3{
+    padding: 30px 0 40px;
+    font-size: 24px ;
+    font-weight: 700;
+}
+.fstcarimg img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.fstcarimg p:last-child{
+    font-size: 15.34px;
+    color: rgba(102, 102, 102, 1);
+    line-height: 28px;
+    padding-bottom: 34px;
+}
+#lastbtns{
+    background-color: black;
+    margin-bottom: 60px;
 }
