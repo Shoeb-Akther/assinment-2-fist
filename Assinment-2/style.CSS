@@ -36,7 +36,7 @@
     gap: 11px;
 }
 .navImg h2{
-    font-style: 32px;
+    font-size: 32px;
     font-weight: 700;
 }
 .navMain{
@@ -103,7 +103,7 @@
     padding: 60px 0px 80px;
 }
 .fstSl{
-    background: linear-gradient(180deg, rgba(186,186,186,1) 0%, rgba(249,249,249,1) 37%);
+    background: linear-gradient(180deg, rgba(220,241,251,1) 10%, rgba(255,255,255,1) 100%);
 }
 .secsl{
     background: linear-gradient(180deg, #fbf1db 0%, rgba(249,249,249,1) 37%);
@@ -250,6 +250,12 @@
 /* rasposve */
 
 @media only screen and (max-width: 412px) {
+    .marq{
+        display: none;
+    }
+    .navImg {
+        margin-left: 16px;
+    }
     .top{
         border-bottom: 1px solid orange;
     }
