@@ -204,3 +204,177 @@
     background-color: black;
     margin-bottom: 60px;
 }
+.logo{
+    align-items: ;
+    gap: 10.7px;
+}
+.logo img{
+    width: 78px;
+}
+.logo h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 39px;
+}
+.footer{
+    color: white;
+    padding: 123px 0 174px;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 400px;
+    padding-top: 30px;
+}
+.ditals, .footlogo{
+    width: 50%;
+}
+.list li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.list h3 ,.contuct h3{
+    margin-right: 143px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+.contuct div img {
+    margin-right: 5px;
+}
+.bar{
+    display: none;
+}
+/* rasposve */
+
+@media only screen and (max-width: 412px) {
+    .top{
+        border-bottom: 1px solid orange;
+    }
+    .hidden{
+        display:none;
+    }
+    .bar{
+        display: block;
+    }
+    .bannner{
+        flex-direction: column-reverse;
+    }
+    .banimg{
+        margin: 0 25px;
+    }
+    .banimg img{
+        width: calc(412px - 50px);
+    }
+    .bancontent h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .bancontent p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .bancontent {
+        text-align: center;
+        margin: auto;
+    }
+    .bancontent button{
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+    #sclider{
+        font-size: 26px;
+        padding: 40px 0 20px;
+    }
+    .slidercard {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .slidercard{
+        width: calc(412px - 32px);
+    }
+    .slidericon {
+        display: none;
+    }
+    .glytext h1{
+        font-size: 24px;
+        padding: 30px 0 20px;
+    }
+    .cardcont{
+        margin: 0;
+    }
+    .cardT {
+        grid-template-columns: repeat(2,1fr);
+        gap: 12px;
+    }
+    .cardT p ,.padWidth h5 {
+        margin-left: 22.5px;
+    }
+    .cardT div{
+        width: calc(412px - 16px);
+        width:184px;
+        margin: auto;
+        padding-right: 0px;
+    }
+    .cardT div img{
+        width: 100%;
+    }
+    .galary{
+        width: 100%;
+    }
+    
+  p.spaP.comcard.raleway-normal {
+    font-size: 9px;
+}
+.comcard {
+    width: 80px;
+}
+
+.cardcont {
+    margin: 0px auto !important;
+    margin-left: 16px !important;
+}
+.padWidth {
+    padding: 0px;
+}
+.padWidth h5 {
+    font-size: 9px;
+    width: 118px;
+}
+
+.width {
+    max-width: 100%;
+}
+#lastbtns {
+    margin-bottom: 60px;
+    font-size: 16px;
+    padding: 7px 37px;
+    margin: 20px 0 40px;}
+.footer ,.ditals{
+        flex-direction: column;
+        margin-left: 16px;
+        width: 100%;
+    }
+    .logo h1 {
+        font-size: 35px;
+    }
+    .footer p {
+        font-size: 16px;
+        width: 178%;
+    }
+    .ditals{
+        margin: 0px;
+    }
+    .footer {
+        padding: 60px 0 60px;
+    }
+    .bannner p {
+        margin: 24px 18px;
+    }
+    .bancontent h1 {
+        padding-top: 20px;
+    }
+
+
+}
