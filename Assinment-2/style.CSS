@@ -11,6 +11,23 @@
   font-weight: 500;
   font-style: normal;
 }
+html, body {
+    overflow-x: hidden;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+::-webkit-scrollbar{
+    display: none;
+}
   *{margin: 0;padding: 0;}
   .width{max-width: 80%;margin: auto;}
 .flex{display: flex;}
@@ -249,7 +266,7 @@
 }
 /* rasposve */
 
-@media only screen and (max-width: 412px) {
+@media only screen and (min-width: 300px) and (max-width: 700px) {
     .marq{
         display: none;
     }
